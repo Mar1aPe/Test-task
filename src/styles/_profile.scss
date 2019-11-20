@@ -1,0 +1,34 @@
+.profile {
+    width: 90%;
+    margin: 35px auto;
+
+    h1 {
+        font: {
+            weight: bold;
+            size: 50px;
+        }
+    }
+
+    .location {
+        color: grey;
+        font-size: 30px;
+    }
+
+    .quote {
+        font: {
+            size: 30px;
+            family: $textFont;
+        }
+
+        .blockquote {
+            color: grey;
+            font-style: italic;
+            border-left: 10px solid $themeColor;
+            padding-left: 15px;
+            margin-left: 40px;
+        }
+    }
+
+
+
+}
