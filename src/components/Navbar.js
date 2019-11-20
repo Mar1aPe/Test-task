@@ -1,16 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='navigation'>
             <ul>
+
                 <li>
-                    <Link to='/'>profile icon</Link>
+                    <NavLink to='/' exact='true'><i class="fas fa-user"></i></NavLink>
                 </li>
                 <li>
-                    <Link to='/gallery'>gallery icon</Link>
+                    <NavLink to='/gallery'><i class="far fa-image"></i></NavLink>
                 </li>
+
+
             </ul>
         </div>
     );

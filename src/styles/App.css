@@ -7,6 +7,54 @@
   background-repeat: no-repeat;
 }
 
+.navigation {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #25c9ad;
+  height: 75px;
+  margin-top: 3px;
+}
+
+.navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.navigation ul li {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 50px;
+}
+
+.navigation ul li a {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.navigation ul li a.active {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
 .profilePic {
   background-image: url(../images/profilepic.JPG);
   background-repeat: no-repeat;
@@ -18,6 +66,7 @@
   position: absolute;
   top: 200px;
   left: 50px;
+  z-index: 2;
 }
 
 * {
