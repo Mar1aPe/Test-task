@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
             <ul>
                 <li>
-                    <Link to='/profile'>profile icon</Link>
+                    <Link to='/'>profile icon</Link>
                 </li>
                 <li>
                     <Link to='/gallery'>gallery icon</Link>

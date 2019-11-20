@@ -10,8 +10,8 @@ const ContentView = () => {
     return (
         <div>
             <Switch>
-                <Route path='/profile' exact component={Profile} />
-                <Route path='/gallery' exact component={Gallery} />
+                <Route path='/' exact component={Profile} />
+                <Route path='/gallery' component={Gallery} />
                 <Route path='/404' exact component={ErrorPage} />
                 <Redirect to='/404' />
             </Switch>

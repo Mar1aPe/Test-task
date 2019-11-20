@@ -1,12 +1,13 @@
 {
     "version": 3,
-    "mappings": "AAMA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
+    "mappings": "AEAA,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,4BAA4B;EAC9C,eAAe,EAAE,IAAI;EACrB,iBAAiB,EAAE,SAAS;CAE/B;;AFAD,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
     "sources": [
         "app.scss",
-        "_description.scss",
+        "_profile.scss",
         "_header.scss",
         "_navbar.scss",
-        "_profilepic.scss"
+        "_profilepic.scss",
+        "_gallery.scss"
     ],
     "names": [],
     "file": "app.css"
