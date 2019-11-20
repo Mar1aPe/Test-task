@@ -13,6 +13,7 @@ class App extends Component {
         <div className="App">
           <header>
             {<Header />}
+            {<ProfilePic />}
           </header>
           <nav>
             {<Navbar />}
