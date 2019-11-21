@@ -4,11 +4,11 @@ const Profile = () => {
     return (
         <div className='profile'>
             <h1>Marilyn Monroe</h1>
-            <p className='location'><i class="fas fa-map-marker-alt"></i> Poznań, PL </p>
+            <p className='location'><i className="fas fa-map-marker-alt"></i> Poznań, PL </p>
             <br />
             <br />
             <div className="quote">
-                <p>You wouldn't hit a man with no trousers on, woud you? Multiply your anger by about a hudred, Kate, that's how much he thinks he loves you. My Lord! You are a tripod. Boxing is about respect.</p>
+                <p>You wouldn't hit a man with no trousers on, woud you? Multiply your anger by about a hundred, Kate, that's how much he thinks he loves you. My Lord! You are a tripod. Boxing is about respect.</p>
                 <br />
                 <div className='blockquote'>
                     When a naked man's chasing a woman through an alley <br />
