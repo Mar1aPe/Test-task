@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../components/Images'
 
 
+
 // let gallery = []
 
 // const apiUrl = 'https://www.flickr.com/services/feeds/photos_public.gne?tags=marilynmonroe'
@@ -122,6 +123,8 @@ const Gallery = () => {
         return <Image key={picture.link} {...picture} />
 
     })
+
+
 
     return (
 

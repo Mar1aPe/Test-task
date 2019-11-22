@@ -9,9 +9,21 @@
   font-size: 50px;
 }
 
+@media screen and (max-width: 570px) {
+  .profile h1 {
+    font-size: 30px;
+  }
+}
+
 .profile .location {
   color: grey;
   font-size: 30px;
+}
+
+@media screen and (max-width: 570px) {
+  .profile .location {
+    font-size: 20px;
+  }
 }
 
 .profile .quote {
@@ -25,6 +37,18 @@
   border-left: 10px solid #25c9ad;
   padding-left: 15px;
   margin-left: 40px;
+}
+
+@media screen and (max-width: 570px) {
+  .profile .quote .blockquote {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .profile .quote {
+    font-size: 15px;
+  }
 }
 
 .header {
@@ -47,6 +71,14 @@
   background-color: #25c9ad;
   height: 75px;
   margin-top: 3px;
+}
+
+@media screen and (max-width: 570px) {
+  .navigation {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .navigation ul {
@@ -96,6 +128,47 @@
   top: 150px;
   left: 50px;
   z-index: 2;
+}
+
+@media screen and (max-width: 570px) {
+  .profilePic {
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+}
+
+.gallery {
+  width: 90%;
+  margin: 5% auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 860px) {
+  .gallery {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .gallery {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.gallery .basicImage {
+  place-self: center;
+  width: 250px;
+  height: 150px;
 }
 
 * {

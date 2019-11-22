@@ -6,6 +6,10 @@
     height: 75px;
     margin-top: 3px;
 
+    @media screen and (max-width: $mobile) {
+        justify-content: center;
+    }
+
     ul {
         display: flex;
         flex-direction: row;

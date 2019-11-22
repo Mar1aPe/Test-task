@@ -1,8 +1,9 @@
-$themeColor: rgb(37, 201, 173);
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-
 $textFont: 'Source Sans Pro',
 sans-serif;
+$themeColor: rgb(37, 201, 173);
+$medium: 860px;
+$mobile: 570px;
 
 
 @import 'profile';

@@ -1,0 +1,25 @@
+.gallery {
+    width: 90%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+    justify-items: center;
+
+    @media screen and (max-width: $medium) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $mobile) {
+        grid-template-columns: 1fr;
+    }
+
+    .basicImage {
+        place-self: center;
+        width: 250px;
+        height: 150px;
+
+
+    }
+
+}

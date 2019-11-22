@@ -7,11 +7,19 @@
             weight: bold;
             size: 50px;
         }
+
+        @media screen and (max-width: $mobile) {
+            font-size: 30px;
+        }
     }
 
     .location {
         color: grey;
         font-size: 30px;
+
+        @media screen and (max-width: $mobile) {
+            font-size: 20px;
+        }
     }
 
     .quote {
@@ -26,6 +34,14 @@
             border-left: 10px solid $themeColor;
             padding-left: 15px;
             margin-left: 40px;
+
+            @media screen and (max-width: $mobile) {
+                margin-left: 30px;
+            }
+        }
+
+        @media screen and (max-width: $mobile) {
+            font-size: 15px;
         }
     }
 
