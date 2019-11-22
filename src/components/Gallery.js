@@ -114,8 +114,6 @@ let gallery = [
     }
 ]
 
-
-console.log(gallery)
 const Gallery = () => {
 
     const galleryView = gallery.map(picture => {
